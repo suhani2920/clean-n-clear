@@ -52,9 +52,13 @@ clear: both;
 .column {
 float: left;
 width: 25%;
-padding: 2rem;
 }
+@media screen and (max-width: 767px) {
+.column {
 
+  width: 50%;
+  }
+}
 /* The Modal (background) */
 .modal {
 display: none;
@@ -216,7 +220,7 @@ box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
           <div class="hero-text">
 
              <img src="images/bahrain.png" alt="bahrain-flag" width="60px" height="55px">
-            <h1 class="text-white" data-aos="fade-up"><span style="font-size:65px;">#1 RO </span>Service<img src="https://media.giphy.com/media/B1YL3PWoE6v3vrdXAn/source.gif" alt="" width="100px" height="100px"> Provider in Bahrain </h1>
+            <h1 class="text-white" data-aos="fade-up"><span style="font-size:70px;">#1 RO </span>Service Provider in Bahrain </h1>
             <h5 class="text-blue">We Offer RO Repair Services Like RO Installation, RO Repair & Maintenance For Domestic & Industrial RO Water Purifier/Plants.</h5>
             <a href="contact.html" class="custom-btn btn-bg btn mt-3" data-aos="fade-up" data-aos-delay="100"> Let us discuss together!</a>
 
@@ -367,7 +371,7 @@ Pre filter 1 micron to remove suspended material such as sediments, insects, fib
 <h2 style="text-align:center; padding:50px;" data-aos="fade-up">Products</h2>
 
 <div class="row" style="margin:20px;" data-aos="fade-up">
-  <div class="column">
+  <div class="cl column">
     <img src="images/jumbo_filter.png" style="width:100%" onclick="openModal();currentSlide(1)" class="hover-shadow cursor" >
     <h4 style="text-align:center">jumbo filter</h4>
   </div>
