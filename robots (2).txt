@@ -1,3 +1,0 @@
-User-Agent: *
-Disallow:
-Sitemap: https://www.cleannclearbh.com/sitemap (2).xml
